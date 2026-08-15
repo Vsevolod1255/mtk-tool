@@ -1,11 +1,10 @@
-🛠️ MTK Tool (v0.0.1 Alpha) (a build from 14.08.2026)
+🛠️ MTK Tool (v0.0.1.1 Alpha) (a build from 15.08.2026)
 
-The tool is based on bkepler's mtkclient (huge thanks for processor's information and BROM handshake)
+The tool is based on bkerler's mtkclient (huge thanks for processor's information and BROM handshake (beta testing))
 
 More will be added soon.
 
 Huge thanks to everyone who will give tips and/or find bugs on any stage of production. 
-
 
 
 A lightweight Python utility for querying and managing MediaTek (MTK) processor configurations, including BROM/DA payload addresses, Watchdog register locations, and authentication requirements.
@@ -30,7 +29,7 @@ A lightweight Python utility for querying and managing MediaTek (MTK) processor 
 
 mtk-tool/
 
-├── chips\_db.py      # Chip database, search logic, and lookup functions
+├── chips_db.py      # Chip database, search logic, and lookup functions
 
 ├── utils.py         # Utility functions and output formatting helpers
 
@@ -76,9 +75,11 @@ Distributed under the GNU General Public License v3.0 (GPLv3). See LICENSE for m
 
 Acknowledgements:
 
-bkepler (creator of mtkclient) -> his BROM handshake will be implemented later in beta-testing
+bkerler (creator of mtkclient) -> his BROM handshake will be implemented later in beta-testing
 
 Chaosmaster and cyrozap (database of processors)
 
+Updates information:
+alpha-v.0.0.1.1 (build date: 2026-08-15) - small bugs fixed around the main menu, HWID, user_input. Main.py rewritten
 
 

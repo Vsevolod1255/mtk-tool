@@ -28,7 +28,7 @@ def make_backup():
         .lower()
     )
     if answer == "y":
-        query = input("Input the NWID code or the name of the processor:")
+        query = input("Input the HWID code or the name of the processor:")
         found_chips = search_chips(query)
 
         if not found_chips:
@@ -78,12 +78,12 @@ def validate_dump_file(file_path: str) -> bool:
         file_size_bytes = os.path.getsize(file_path)
 
         if file_size_bytes == 0:
-            print(f"Warning! File '{file_path}' is empty (0 bites)!")
+            print(f"Warning! File '{file_path}' is empty (0 bytes)!")
             return False
 
         file_size_mb = file_size_bytes / (1024 * 1024)
         print(
-            f"The dump: '{file_path}' ({file_size_mb:.2f} MB / {file_size_bytes} Bites)"
+            f"The dump: '{file_path}' ({file_size_mb:.2f} MB / {file_size_bytes} Bytes)"
         )
         return True
 

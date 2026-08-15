@@ -1,4 +1,4 @@
-# huge thanks to bkepler, cyrozap, Chasomaster for this information in the database
+# huge thanks to bkerler, cyrozap, Chaosmaster for this information in the database
 from types import MappingProxyType
 
 _CHIPS = {
